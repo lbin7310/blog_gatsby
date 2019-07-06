@@ -21,7 +21,7 @@ module.exports = {
   ],
   author: {
     name: 'Kibin',
-    photo: 'null',
+    photo: '/바다사진.jpg',
     bio: 'No pain, No gain',
     contacts: {
       email: 'libin7310@gmail.com',
