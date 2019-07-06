@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Kibin',
+  subtitle: 'No pain, No gain',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -15,27 +15,19 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    },
-    {
       label: 'TIL',
       path: '/pages/til'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Kibin',
+    photo: 'null',
+    bio: 'No pain, No gain',
     contacts: {
-      email: '#',
+      email: 'libin7310@gmail.com',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'lbin7310',
       rss: '#',
       vkontakte: '#'
     }
