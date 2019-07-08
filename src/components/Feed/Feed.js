@@ -1,9 +1,11 @@
 // @flow
 import React from 'react';
 import moment from 'moment';
+import 'moment/locale/ko';
 import { Link } from 'gatsby';
 import type { Edges } from '../../types';
 import styles from './Feed.module.scss';
+moment.locale('ko');
 
 type Props = {
   edges: Edges
