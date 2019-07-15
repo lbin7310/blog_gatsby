@@ -2,6 +2,10 @@
 title: "TIL"
 template: "page"
 ---
+### 2019.07.15.월 
+- Typescript의 interface는 객체에 있는 key의 value type을 정해준다.
+- interface로 정한 type은 다른 interface에서 type으로 쓰일 수 있다.
+
 ### 2019.07.13.토
 - redux의 action, reducer, store
 - aciton는 '이벤트가 발생한다.' 라고 알려준다.
