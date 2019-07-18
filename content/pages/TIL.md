@@ -4,7 +4,7 @@ template: "page"
 ---
 #### 2019.07.18 목
 - react-router는 SPA에서 page를 전환할 때 사용한다.
-- react-router는 url에 들어간 주소값을 page를 넘어갈 때 url에 page가 받을 입력값을 넣어서 넘겨줄 수 있다.
+- react-router는 url에 page를 넘어갈 때 받을 값을 넣을 수 있다.
 
 #### 2019.07.17.수
 - JSON server를 사용해서 미리 data 형식을 만들 수 있다.
