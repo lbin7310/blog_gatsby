@@ -2,6 +2,21 @@
 title: "TIL"
 template: "page"
 ---
+#### 2019.07.22 월
+- Back을 구현하면서 생겼던 문제  
+Access to fetch at 'http://localhost:4000' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.  
+- 해결방법
+  - Backend에서 cors 설치  
+  `npm install cors`
+  ```javascript
+  const express = require('express');
+  const app = exprss();
+  (...) // 여러 설정
+  const cors = require('cors');
+  // url이 다르면 접근을 할 수 없게 하는 걸 접근할 수 있게 해준다.
+  app.use(cors()); 
+  ```
+
 #### 2019.07.19 금
 - Nodejs는 아무것도 없는 상태에서 시작하고 필요한 것만 추가하면서 개발을 진행할 때 사용한다. 
 - 데이터를 저장하고 보여주고 삭제하고 수정하는데 유용하다 (CRUD). ex) 실시간을 다루는 경우
