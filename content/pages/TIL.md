@@ -2,6 +2,14 @@
 title: "TIL"
 template: "page"
 ---
+#### 2019.07.23 화
+- fetch 요청과 응답 때 발생 했던 오류
+```
+Uncaught (in promise) SyntaxError: Unexpected end of JSON input
+```
+발생 했던 이유는 요청에 대한 응답으로 data를 보낼 때 맞는 형식(객체)으로 보내질 않아서 오류가 났다.  
+해결 방법은 객체 형태로 보냈는데 오류가 발생하지 않았다.
+
 #### 2019.07.22 월
 - Back을 구현하면서 생겼던 문제  
 Access to fetch at 'http://localhost:4000' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.  
