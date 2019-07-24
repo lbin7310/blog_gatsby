@@ -2,6 +2,21 @@
 title: "TIL"
 template: "page"
 ---
+#### 2019.07.24 수
+- fetch 요청 보낼 때 생긴 오류  
+Uncaught (in promise) TypeError: Failed to execute 'fetch' on 'Window': The provided value is not of type '(sequence<sequence<ByteString>> or record<ByteString, ByteString>)'
+      
+원인: headers 잘못된 형식으로 담아 보내서 발생함.
+```
+headers: "Content-Type/application/json"
+``` 
+해결
+```
+headers: {
+          "Content-Type": "application/json"
+        }
+```
+
 #### 2019.07.23 화
 - fetch 요청과 응답 때 발생 했던 오류
 ```
