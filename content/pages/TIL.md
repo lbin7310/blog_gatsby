@@ -2,6 +2,11 @@
 title: "TIL"
 template: "page"
 ---
+#### 2019.07.25 목
+- list의 제목을 변경하는 로직을 만들려고 했다. 문제가 발생했다. 클릭하면 선택된 것만 바뀌어야 되는데 다른 list의 제목까지 같이 바뀌었다. 뭔가 잘못된 것이 분명했다. 
+고심 끝에 해결방안은 component를 만들어 주고 독립된 state를 주면 된다.
+
+
 #### 2019.07.24 수
 - fetch 요청 보낼 때 생긴 오류  
 Uncaught (in promise) TypeError: Failed to execute 'fetch' on 'Window': The provided value is not of type '(sequence<sequence<ByteString>> or record<ByteString, ByteString>)'
