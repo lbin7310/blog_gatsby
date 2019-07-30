@@ -1,6 +1,6 @@
 ---
 title: "babel로 server에서 es6문법사용하기"
-date: "2019-07-12T12:33:23+09:00"
+date:  "2019-07-30T21:03:01+09:00"
 template: "post"
 draft: false
 slug: "/posts/babel로-server에서-es6문법사용하기/"
