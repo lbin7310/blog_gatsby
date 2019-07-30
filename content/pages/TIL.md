@@ -2,6 +2,11 @@
 title: "TIL"
 template: "page"
 ---
+#### 2019.07.30 화
+- package.json에 있는 dependencies와 devDependencies
+  dependencies는 프로젝트가 실행될려면 필요한 것들 ex) express etc...
+  devDependencies는 개발자에게 도움이 될만한 모듈, 내가 필요한 것, 프로젝트에선 필요없는 것들 ex) nodemon etc...
+
 #### 2019.07.29 월
 - form tag
   사용자 의견이나 정보를 알기 위해 입력할 큰 틀을 만드는데 사용된다. 폼은 입력된 데이터를 한 번에 서버에 전송한다. 전송한 데이터는 웹 서버가 처리한다. 결과에 따라 다른 웹 페이지를 보여준다.
