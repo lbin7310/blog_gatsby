@@ -23,7 +23,7 @@ function handleListening() {
 
 app.listen(PORT, handleListening);
 ```  
-require를 이용해서 모듈을 불러오고 있다. export로 모듈을 불러오게 하겠다.
+require를 이용해서 모듈을 불러오고 있다. import로 모듈을 불러오게 하겠다.
  -------
 ```
 npm install @babel/node
