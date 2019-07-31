@@ -2,6 +2,17 @@
 title: "TIL"
 template: "page"
 ---
+#### 2019.07.31 수
+- cookie-parser: cookie를 전달받아서 사용할 수 있도록 만들어 주는 미들웨어다. 사용자 인증 같은 곳에서 쿠키를 검사할 때 사용한다.
+- body-parser: 사용자가 웹사이트로 전달하는 정보들을 검사하는 미들웨어다. request 정보에서 form이나 json 형태로 된 body를 검사한다. ex) 아바타의 사진이나 비디오를 업로드 할 때, 제목이나 댓글 같은 정보를 전달 할 때 form에 담아서 업로드 해야한다. 그때 body-parser를 거쳐서 처리된다.
+- helmet: application이 더 안전하도록 만들어 주는 미들웨어다.
+- morgan: application에서 발생하는 모든 일들을 logging하는 미들웨어다.
+- One single source of truth
+  - 한 곳에서만 정보를 교환한다.
+  - 더 나은 코드를 만들어 주는 원칙이다.
+  - 버그를 최소화할 수 있다.
+  - 많은 곳에 영향을 주는 코드를 한 곳에서 관리하고 저장된 곳에서만 바꾼다.
+
 #### 2019.07.30 화
 - package.json에 있는 dependencies와 devDependencies
   dependencies는 프로젝트가 실행될려면 필요한 것들 ex) express etc...
