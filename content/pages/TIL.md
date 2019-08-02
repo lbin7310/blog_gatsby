@@ -2,6 +2,23 @@
 title: "TIL"
 template: "page"
 ---
+#### 2019.08.02 금
+- dotenv: 외부로 노출 시키면 안되는 부분을 숨겨놓을 때 사용한다. localhost에 설치된 MongoDB나 Mysql은 나만 사용하게 설정해놓거나 하면 괜찮다. 그렇지만 다른 곳에 설치 된다면 어떻게 될까? 예를 들어 opensource 프로젝트를 한다고 상상해보자. database를 숨겨 놓고 싶고, github 올려놓고 싶지 않다면, 이 때 dotenv를 사용한다.
+
+- 루트폴더에 .env 파일을 만들다. 서버에서 사용한다고 한다면 PORT를 .env에 생성해 놓고 사용한다면
+```javascript
+// .env 파일
+PORT = 4000;
+// app.js
+//.......
+import dotenv from "dotenv";
+dotenv.config
+//......... 여러 코드가 있다고 하자.
+const PORT = process.env.PORT || 4000;
+app.listen(PORT);
+```
+위와 같이 사용한다.
+
 #### 2019.08.01 목
 - mixin: 웹사이트에서 계속 반복되는 코드를 복사-붙여넣기 하지 않고 재활용하는 방법
 
