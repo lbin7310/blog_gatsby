@@ -17,6 +17,10 @@ module.exports = {
     {
       label: 'TIL',
       path: '/pages/til'
+    },
+    {
+      label: 'TEST',
+      path: '/pages/test'
     }
   ],
   author: {
